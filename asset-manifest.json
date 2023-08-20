@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/credit-card-form/static/css/main.e9aec7d6.css",
-    "main.js": "/credit-card-form/static/js/main.eb05621c.js",
-    "index.html": "/credit-card-form/index.html",
-    "main.e9aec7d6.css.map": "/credit-card-form/static/css/main.e9aec7d6.css.map",
-    "main.eb05621c.js.map": "/credit-card-form/static/js/main.eb05621c.js.map"
+    "main.css": "/static/css/main.e9aec7d6.css",
+    "main.js": "/static/js/main.eb05621c.js",
+    "index.html": "/index.html",
+    "main.e9aec7d6.css.map": "/static/css/main.e9aec7d6.css.map",
+    "main.eb05621c.js.map": "/static/js/main.eb05621c.js.map"
   },
   "entrypoints": [
     "static/css/main.e9aec7d6.css",
