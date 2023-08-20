@@ -1,0 +1,98 @@
+.container {
+    padding: 16px 30px 30px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 104px;
+    height: 65px;
+}
+
+.heading {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input_container,
+.btn {
+    margin-top: 24px;
+}
+
+.input_container {
+    width: 100%;
+}
+
+.input,
+.label {
+    display: block;
+}
+
+.label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E2E6EE;
+    font-size: 16px;
+}
+
+.input:focus,
+.input_filled {
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+
+.input::placeholder {
+    color: #9EA8BD;
+}
+
+.inline_inputs {
+    display: flex;
+}
+
+.input_date,
+.input_cvv {
+    width: 144px;
+}
+
+.input_date {
+    margin-right: 12px;
+}
+
+.input_error {
+    border: 1px solid #FF5959;
+    box-shadow: 0px 0px 20px 0px rgba(255, 89, 89, 0.20);
+    color: #FF5959;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: #288FB4;
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn:disabled {
+    background-color: #afc6cf; 
+    cursor: auto;
+}
+
+.info {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #9EA8BD;
+}
